@@ -7,7 +7,7 @@ items = []
 @app.get("/")
 
 def root():
-    return {"Hello": "World"}
+    return {"Meu backend": "Funciona"}
 
 
 @app.post("/items")
